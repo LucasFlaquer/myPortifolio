@@ -2,3 +2,35 @@
 	margin: auto 40px;
 	font-size: 1.2rem;
 }
+
+.main {
+	position: relative;
+	margin-top: 60px;
+	min-height: 703px;
+	background: rgb(136,124,147);
+	background: -webkit-linear-gradient(300deg, rgba(136,124,147,1) 19%, rgba(124,25,93,1) 59%);
+	background: -o-linear-gradient(300deg, rgba(136,124,147,1) 19%, rgba(124,25,93,1) 59%);
+	background: linear-gradient(30deg, rgba(136,124,147,1) 19%, rgba(124,25,93,1) 59%);
+
+}
+
+.main--title {
+	margin-bottom: 80px;
+	text-align: center;
+	color: #fff;
+}
+.figure {
+	/*position: absolute;
+	top: 25%;
+	left: 25%;*/
+}
+.image {
+	border-radius: 25px;
+}
+
+.main-description {
+	font-size: 1.5rem;
+	display: inline-block;
+	color: #fff;
+	font-style: italic;
+}
