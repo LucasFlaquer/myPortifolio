@@ -1,12 +1,16 @@
+.header {
+	margin-bottom: 60px;
+}
+
 .nav-item {
 	margin: auto 40px;
 	font-size: 1.2rem;
 }
 
 .main {
-	position: relative;
-	margin-top: 60px;
-	min-height: 703px;
+/*	position: relative;*/
+	padding: 100px;
+	/*min-height: 703px;*/
 	background: rgb(136,124,147);
 	background: -webkit-linear-gradient(300deg, rgba(136,124,147,1) 19%, rgba(124,25,93,1) 59%);
 	background: -o-linear-gradient(300deg, rgba(136,124,147,1) 19%, rgba(124,25,93,1) 59%);
@@ -14,16 +18,24 @@
 
 }
 
+.intro {
+	display: flex;
+	justify-content: space-between;
+}
+
+.intro--image {
+	margin-right: 10px;
+}
+
 .main--title {
-	margin-bottom: 80px;
-	text-align: center;
 	color: #fff;
+	//escoler uma fonte
 }
-.figure {
-	/*position: absolute;
+/*.figure {
+	position: absolute;
 	top: 25%;
-	left: 25%;*/
-}
+	left: 25%;
+}*/
 .image {
 	border-radius: 25px;
 }
