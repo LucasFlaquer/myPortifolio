@@ -1,3 +1,7 @@
+body {
+	font-family: cursive;
+}
+
 .nav-item {
 	margin: auto 40px;
 	font-size: 1.2rem;
@@ -11,4 +15,33 @@
 	flex-direction: column;
 	height: 100vh;
 	background-image: linear-gradient(to top, #8dacda, #7196cf, #557fc4, #3669b8, #0454ac);
+}
+
+.main--box {
+	display: flex;
+	align-items: center;
+}
+
+.main--description {
+	padding: 20px;
+}
+.main--title {
+	color: #fff;
+}
+.main--text {
+	font-size: 1.3em;
+	color: #ffd;
+}
+
+.resume-download {
+	color: #fff;
+    background: #4a4747;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 10px;
+}
+.resume-download:hover {
+	text-decoration: none;
+	background: #4e5555;
+	color: #fff;
 }
