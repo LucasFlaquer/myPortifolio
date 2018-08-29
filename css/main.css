@@ -40,8 +40,17 @@ body {
     display: inline-block;
     border-radius: 10px;
 }
+
+.resume-download .fas {
+	font-size: 1.5em;
+	vertical-align: bottom;
+    padding-right: 15px;
+}
+
 .resume-download:hover {
 	text-decoration: none;
 	background: #4e5555;
 	color: #fff;
 }
+
+/*--------section - main*/
