@@ -11,7 +11,7 @@
 	flex-direction: column;
 	height: 100vh;
 	background-image: linear-gradient(to top, #8dacda, #7196cf, #557fc4, #3669b8, #0454ac);
-	font-family: cursive;
+	font-family: cursive, sans-serif;
 }
 
 .main--box {
