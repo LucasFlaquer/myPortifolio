@@ -1,7 +1,3 @@
-body {
-	font-family: cursive;
-}
-
 .nav-item {
 	margin: auto 40px;
 	font-size: 1.2rem;
@@ -15,6 +11,7 @@ body {
 	flex-direction: column;
 	height: 100vh;
 	background-image: linear-gradient(to top, #8dacda, #7196cf, #557fc4, #3669b8, #0454ac);
+	font-family: cursive;
 }
 
 .main--box {
