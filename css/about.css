@@ -1,0 +1,28 @@
+.about {
+	height: 80vh;
+}
+
+.about--school {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+.about--title {
+	font-size: 3rem;
+
+}
+.about--list {
+	display: flex;
+	/*justify-content: flex-end;*/
+	align-items: center;
+}
+.about--item {
+	width: 200px;
+	padding: 0 10px;
+
+}
+.about--item img {
+	width: 100%;
+
+}
